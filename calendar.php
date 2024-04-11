@@ -169,4 +169,3 @@ function checkPending()
 }
 
 </script>
-ghg
