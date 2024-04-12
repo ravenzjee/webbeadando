@@ -69,7 +69,7 @@
             <a href="pending.php" class="nav-link <?php if (basename($_SERVER['REQUEST_URI']) == "pending.php") echo 'active'; ?>">
               <i class="nav-icon fa fa-clock"></i>
               <p>
-                Függő foglalások
+                Rólunk
                 <span class="badge badge-danger right" id="pendingcounter"></span>
               </p>
             </a>
