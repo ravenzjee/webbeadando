@@ -1,6 +1,6 @@
   <!-- Main Footer -->
   <footer class="main-footer">
-    Copyright &copy; 2024<?php if (date('Y')!="2024") echo "-".date('Y'); ?> <strong>404error</a>. Készült a <strong><?=SITE_NAME; ?></strong> számára.
+    Copyright &copy; 2024<?php if (date('Y')!="2024") echo "-".date('Y'); ?> <strong>404error</a>
    
   </footer>
 
