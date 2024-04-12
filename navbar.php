@@ -83,6 +83,15 @@
               </p>
             </a>
           </li>
+          <li class="nav-item">
+            <a href="galeria.php" class="nav-link <?php if (basename($_SERVER['REQUEST_URI']) == "galeria.php") echo 'active'; ?>">
+              <i class="nav-icon fa fa-image"></i>
+              <p>
+                Galéria
+               
+              </p>
+            </a>
+          </li>
           <?php /*
           <li class="nav-item">
             <a href="rooms.php" class="nav-link <?php if (basename($_SERVER['REQUEST_URI']) == "rooms.php") echo 'active'; ?>">
