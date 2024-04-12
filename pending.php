@@ -21,6 +21,7 @@
   <!-- Theme style -->
   <link rel="stylesheet" href="dist/css/adminlte.min.css">
 
+  
   <style>
     .foglalt { background: green!important; }
   </style>
@@ -53,6 +54,7 @@
       </div><!-- /.container-fluid -->
     </div>
     <!-- /.content-header -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/QEYeEkeAqtk?si=oe4jPa7k9cc3aQtg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
     <!-- Main content -->
     <div class="content">
