@@ -12,7 +12,7 @@
         $result = move_uploaded_file($_FILES['feltoltes']['tmp_name'], $name);
         $filename = $nnname;
         if($result){                   
-            $sql = "INSERT INTO galeria (kepurl, kepcim) VALUES ($name, '{$_POST[kepcim]}')";
+            $sql = "INSERT INTO galeria (kepurl, kepcim) VALUES ('$name', '{$_POST[kepcim]}')";
             $q = mysqli_query($con, $sql);
         }
     header("Location: galeria.php");
