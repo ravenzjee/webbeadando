@@ -112,5 +112,6 @@
 <!-- AdminLTE for demo purposes -->
 <script src="dist/js/pages/dashboard3.js"></script>
 </body>
+
 </html>
 
