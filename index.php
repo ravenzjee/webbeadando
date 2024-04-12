@@ -1,4 +1,13 @@
 <?php
+if(isset($_GET['p'])){
+  if($_GET['p']=='login') header("Location: login.php");else 
+  if($_GET['p']=='calendar') header("Location: calendar.php");else 
+  if($_GET['p']=='galeria') header("Location: galeria.php");else 
+  if($_GET['p']=='rolunk') header("Location: pending.php");else 
+  if($_GET['p']=='foglalasok') header("Location: index.php");else 
+}
+?>
+<?php
   session_start();
   require("../includes/header.php");
   if (!isset($_SESSION['adminuser'])) header("Location: login.php");

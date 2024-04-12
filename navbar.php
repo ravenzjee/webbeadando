@@ -66,7 +66,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="pending.php" class="nav-link <?php if (basename($_SERVER['REQUEST_URI']) == "pending.php") echo 'active'; ?>">
+            <a href="index.php?p=rolunk" class="nav-link <?php if (basename($_SERVER['REQUEST_URI']) == "pending.php") echo 'active'; ?>">
               <i class="nav-icon fa fa-clock"></i>
               <p>
                 Rólunk
@@ -75,7 +75,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="calendar.php" class="nav-link <?php if (basename($_SERVER['REQUEST_URI']) == "calendar.php") echo 'active'; ?>">
+            <a href="index.php?p=calendar" class="nav-link <?php if (basename($_SERVER['REQUEST_URI']) == "calendar.php") echo 'active'; ?>">
               <i class="nav-icon fa fa-calendar"></i>
               <p>
                 Áttekintő naptár
@@ -84,7 +84,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="galeria.php" class="nav-link <?php if (basename($_SERVER['REQUEST_URI']) == "galeria.php") echo 'active'; ?>">
+            <a href="index.php?p=galeria" class="nav-link <?php if (basename($_SERVER['REQUEST_URI']) == "galeria.php") echo 'active'; ?>">
               <i class="nav-icon fa fa-image"></i>
               <p>
                 Galéria
