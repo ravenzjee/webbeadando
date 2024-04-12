@@ -69,7 +69,7 @@
                                 while($row=mysqli_fetch_assoc($r)){ ?>
                                     <div class="col-md-3">
                                         <img src="<?=$row["kepurl"];?>" class="img-thumbnail">
-
+                                        <p style="text-align:center"><?=$row["kepcim"];?></p>
                                     </div>
                                 <?php }
                             ?> 
