@@ -81,6 +81,25 @@
           </div>
           
       </div>
+          <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body" >
+                        <div class="row">
+                            <div class="col-md-12">
+                                <form action="galeria-upload.php" method="POST" enctype="multipart/form-data">
+                                    <input type="file" name="feltoltes" accept="image/*" class="form-control">
+                                    <input type="submit" name="submit" value="Feltöltés">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+          </div>
+          
+      </div>
       <!-- /.container-fluid -->
     </div>
     <!-- /.content -->
