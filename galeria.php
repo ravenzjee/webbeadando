@@ -88,7 +88,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <form action="galeria-upload.php" method="POST" enctype="multipart/form-data">
-                                    <input type="file" name="feltoltes" accept="image/*" class="form-control">
+                                    <input type="file" REQUIRED name="feltoltes" accept="image/*" class="form-control">
                                     <input type="submit" name="submit" value="Feltöltés">
                                 </form>
                             </div>
